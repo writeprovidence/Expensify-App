@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn run dev-server
+  /usr/bin/node /usr/bin/yarn add react-format-currency
 
 PATH: 
   /home/weezyana07/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -62,7 +62,7 @@ npm manifest:
       "style-loader": "^0.20.3",
       "uuid": "^3.2.1",
       "validator": "^9.4.1",
-      "webpack": "^4.5.0",
+      "webpack": "^4.5.0"
         },
     "devDependencies": {
       "chalk": "^2.3.2",
@@ -8561,10 +8561,14 @@ Lockfile:
       yeoman-environment "^2.0.5"
 
 Trace: 
-  SyntaxError: /home/weezyana07/Documents/React-Course-Projects/expensify-app/package.json: Unexpected token } in JSON at position 1517
-      at JSON.parse (<anonymous>)
-      at /usr/lib/node_modules/yarn/lib/cli.js:1036:59
+  Error: Found incompatible module
+      at new MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.checkOne (/usr/lib/node_modules/yarn/lib/cli.js:62444:11)
+      at /usr/lib/node_modules/yarn/lib/cli.js:22773:75
       at Generator.next (<anonymous>)
       at step (/usr/lib/node_modules/yarn/lib/cli.js:98:30)
-      at /usr/lib/node_modules/yarn/lib/cli.js:109:13
-      at <anonymous>
+      at /usr/lib/node_modules/yarn/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/usr/lib/node_modules/yarn/lib/cli.js:23451:28)
+      at /usr/lib/node_modules/yarn/lib/cli.js:95:12
+      at /usr/lib/node_modules/yarn/lib/cli.js:22777:27
