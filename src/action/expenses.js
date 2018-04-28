@@ -20,7 +20,7 @@ import database from '../firebase/firebase';
 //    createdAt
 //  }
 //});
-export const addExpense = () => ({
+export const addExpense = (expense) => ({
   type: 'ADD_EXPENSE',
   expense
 });
