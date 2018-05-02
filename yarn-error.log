@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn test
+  /usr/bin/node /usr/bin/yarn run dev-server
 
 PATH: 
-  /home/weezyana07/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  /home/weezyana07/anaconda3/bin:/home/weezyana07/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 Yarn version: 
   1.5.1
@@ -42,6 +42,7 @@ npm manifest:
       "express": "^4.16.3",
       "extract-text-webpack-plugin": "^4.0.0-beta.0",
       "firebase": "^4.13.1",
+      "history": "^4.7.2",
       "live-server": "^1.2.0",
       "moment": "^2.22.1",
       "node-sass": "^4.8.3",
@@ -8833,9 +8834,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit signal: SIGTERM
   Command: sh
-  Arguments: -c cross-env NODE_ENV=test jest --config=jest.config.json
+  Arguments: -c webpack-dev-server
   Directory: /home/weezyana07/Documents/React-Course-Projects/expensify-app
   Output:
   
